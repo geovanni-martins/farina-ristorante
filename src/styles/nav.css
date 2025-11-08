@@ -1,0 +1,51 @@
+@keyframes mudar-bg {
+    0% {
+        background-color: var(--cor-principal);
+    }
+    100% {
+        background-color: #e6e6e6;
+    }
+}
+
+nav {
+    border: 1px solid var(--cor-secundaria);
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+a#img {
+    margin: 0 49% 0 3%;
+    height: 100%;
+}
+
+img {
+    height: 95%;   
+}
+
+div {
+    height: 100%;
+    width: 13%;
+    border: 1px solid var(--cor-secundaria);
+    padding: 10px;
+
+    text-align: center;
+    align-content: center;
+    font-size: 1.5em;
+}
+
+div:hover {
+    /* peguei isso aqui de um repositório antigo meu e mudei */
+    animation: mudar-bg 1s ease-out 0.1s 1 normal forwards;
+}
+
+p {
+    font-family: var(--titulos);
+}

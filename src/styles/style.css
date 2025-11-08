@@ -17,6 +17,10 @@
     --destaque: "lalezar";
     --texto: "lateef";
     --titulos: "libre bodoni";
+
+    --cor-principal: #FFF;
+    --cor-secundaria: #005926;
+    --cor-destaque: #C8102E;
 }
 
 * {

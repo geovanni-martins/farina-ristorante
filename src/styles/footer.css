@@ -1,0 +1,81 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    background-color: var(--cor-secundaria);
+
+    color: var(--cor-principal);
+    text-align: center;
+    font-family: var(--titulos);
+
+    padding: 15px;
+}
+ 
+#fixacao {
+    display: flex;
+    width: 90%;    
+    margin: auto;
+    padding: 20px;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.caixa-texto-footer {
+    padding: 20px;
+    /*width: 33%;*/
+    flex: 1;
+}
+
+.linha {
+    width: 1px;
+    height: 184px;
+    background-color: var(--cor-principal);
+}
+
+.caixa-texto-footer .titulo {
+    font-size: 1.4em;
+}
+
+.caixa-texto-footer .texto {
+    margin-top: 10px;
+}
+
+#logo {
+    display: block;
+    max-width: 228px; /*proporção de 1,086 p/ cada um de altura */
+    max-height: 210px;
+
+    margin: auto;
+}
+
+#redes-sociais {
+    display: flex;
+
+    margin: 15px auto;
+    width: 20vh;
+    justify-content: space-between;
+}
+
+#redes-sociais img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Celular e tals */
+@media (max-width: 614px) {
+    .linha {
+       display: none; 
+    }
+
+    #fixacao {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .caixa-texto-footer {
+        margin: auto;
+
+    }
+}

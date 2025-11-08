@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: "libre bodoni";
-    src: url("../assets/font/Libre_Bodoni/static/LibreBodoni-Regular.ttf") format('truetype');
+    src: url("../assets/font/Libre_Bodoni/LibreBodoni-Regular.ttf") format('truetype');
 }
 
 :root {

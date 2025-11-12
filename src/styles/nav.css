@@ -16,24 +16,25 @@ nav {
     align-items: center;
 }
 
-a {
-    text-decoration: none;
+a.item-nav, a.item-nav > p{
     color: var(--cor-secundaria);
 }
 
 a#img {
     margin: 0 49% 0 3%;
+    padding: 7px;
     height: 100%;
 }
 
-img {
+img#img-nav {
     height: 95%;   
 }
 
-div {
+div.elementos-nav {
     height: 100%;
     width: 13%;
-    border: 1px solid var(--cor-secundaria);
+    border-left: 1px solid var(--cor-secundaria);
+    border-right: 1px solid var(--cor-secundaria);
     padding: 10px;
 
     text-align: center;
@@ -41,11 +42,33 @@ div {
     font-size: 1.5em;
 }
 
-div:hover {
+div.elementos-nav:hover {
     /* peguei isso aqui de um repositório antigo meu e mudei */
     animation: mudar-bg 1s ease-out 0.1s 1 normal forwards;
 }
 
-p {
+.elementos-nav p {
     font-family: var(--titulos);
+}
+
+@media (max-width: 1120px) {
+    nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+    }
+
+    a#img, a#img > img{
+        margin: auto;
+    }
+
+    div.elementos-nav {
+        width: 100%;
+
+        border-left: none;
+        border-right: none;
+
+        border-top: 1px solid var(--cor-secundaria);
+        /* border-bottom: 1px solid var(--cor-secundaria); */
+    }
 }

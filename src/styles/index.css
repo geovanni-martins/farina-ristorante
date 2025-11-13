@@ -1,0 +1,148 @@
+header {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    width: 100%;
+    background: url(../assets/img/comidas-fundo.png) no-repeat center center fixed;
+    background-size: cover;
+
+    align-items: center;
+    text-align: center;
+}
+
+header > p, header h1, header a {
+    color: var(--cor-principal);
+}
+
+h1 {
+    font-family: var(--titulos);
+    font-size: 5em;
+    font-weight: normal;
+
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+p#paragrafo-header {
+    font-family: var(--texto);
+    font-size: 1.7em;
+
+    width: 54%;
+}
+
+a.btn-destaque {
+    margin: 5% 0;
+    padding: 20px 35px;
+/*     width: 25%;
+ */
+    background-color: var(--cor-destaque);
+
+    font-family: var(--destaque);
+    font-size: 2em;
+    text-align: center;
+    color: var(--cor-principal);
+}
+
+#div-section-text a.btn-destaque {
+    width: 35%;
+    margin-top: 6%;
+}
+
+#section-home, .div-section {
+    display: flex;
+}
+
+.div-section {
+    flex-direction: column;
+}
+
+.div-section img {
+    height: 100%
+}
+
+#div-section-text {
+    width: 60%;
+    padding: 3.5%;
+
+    color: var(--cor-secundaria);
+}
+
+h2 {
+    font-size: 6.5em;
+}
+
+#div-section-text p {
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+#div-section-img {
+    width: 40%;
+}
+
+#img-cozinheiro-extended {
+    display: none;
+}
+
+@media (max-width: 695px) {
+    header a.btn-destaque {
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+
+    #div-section-text {
+        text-align: justify;
+    }
+
+    #div-section-text a.btn-destaque {
+        width: 50%;
+        margin-top: 8%;
+    }
+}
+
+@media (max-width: 1600px) {
+    header a.btn-destaque {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 1580px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    #section-home {
+        flex-direction: column;
+    }
+
+    .div-section {
+        width: 100%;
+    }
+
+    #div-section-text, #div-section-img {
+        width: 100%;
+    }
+
+    #div-section-text {
+        text-align: center;
+    }
+
+    a.btn-destaque {
+        margin: auto;
+    }
+
+    h2 {
+       font-size:3.5em; 
+       margin-bottom: 3%;
+    }
+
+    #img-cozinheiro {
+        display: none;
+    }
+
+    #img-cozinheiro-extended {
+        display: block;
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1>BENVENUTO A <br> CASA NOSTRA!</h1>
+        <p id="paragrafo-header">No nosso restaurante, qualidade e satisfação do cliente andam juntas. Venha saborear o melhor da autêntica culinária italiana</p>
+        <a class="btn-destaque">FAÇA SUA RESERVA</a>
+    </header>
+
+    <div id="nav"></div>
+
+    <main>
+        <section id="section-home">
+            <div class="div-section" id="div-section-text">
+                <h2>BENVENUTO A CASA NOSTRA!</h2>
+                <p>
+                    No nosso restaurante, qualidade e satisfação do cliente andam juntas. Venha saborear o melhor da autêntica culinária italiana.
+                </p>
+                <br>
+                <p>
+                    Os melhores ingredientes são selecionados para transformar cada prato em uma verdadeira celebração da alta gastronomia italiana.
+                </p>
+
+                <a class="btn-destaque" href="#">
+                    SOBRE NÓS
+                </a>
+            </div>
+
+            <div class="div-section" id="div-section-img">
+                <img id="img-cozinheiro-extended" src="../assets/img/cozinheiro-temperando-extended.png" alt="Cozinheiro Temperando">
+                <img id="img-cozinheiro" src="../assets/img/cozinheiro-temperando.png" alt="Cozinheiro Temperando">
+            </div>
+        </section>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="../scripts/carregarComponentes.js"></script>
+    <script>
+        carregarComponente("#nav", "../components/nav.html")
+        carregarComponente("#footer", "../components/footer.html")
+    </script>
+</body>
+</html>

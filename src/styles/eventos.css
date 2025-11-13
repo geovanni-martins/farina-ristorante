@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    width: 100%;
+    height: 70vh;
+    background: url(../assets/img/bg-eventos.png) no-repeat center center fixed;
+    background-size: cover;
+
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: var(--titulos);
+    font-size: 10em;
+    font-weight: normal;
+    color: var(--cor-principal);
+
+    margin-top: 4%;
+    margin-bottom: 5%;
+}

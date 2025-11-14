@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    width: 100%;
+    height: 70vh;
+    background: url(../assets/img/bg-cardápio.png) no-repeat center center fixed;
+    background-size: cover;
+
+    text-align: center;
+    justify-content: center;
+   
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+}
+
+
+h1 {
+    font-family: var(--titulos);
+    color: var(--cor-principal);
+    font-size: clamp(2rem, 10vw, 15rem);
+    line-height: 1.1;
+    max-width: 90;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: normal;
+}
+.botões-cardápio{
+    font-family: var(--titulos);
+    margin:0 auto;
+    padding:50px;
+
+
+}
+.botões-cardápio h3{
+    padding-bottom: 40px;
+
+}
+.botões-cardápio a{
+    margin-top: 10px;
+    border:1px solid black;
+    padding:30px 50px 30px 20px;
+    align-items: left;;
+}

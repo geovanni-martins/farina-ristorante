@@ -64,19 +64,30 @@ input {
     border: 1px solid #847C7C;
 }
 
-#btn {
+.btn {
     width: 70%;
     height: 15%;
     padding: 1%;
-    background-color: var(--cor-destaque);
 
-    color: white;
     font-family: var(--destaque);
     font-size: clamp(1em, 1.5vw, 10em);
     text-align: center;
 
     justify-content: center;
     align-items: center;
+}
+
+#btn-voltar {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-secundaria);
+
+    margin-bottom: 10px;
+}
+
+#btn-solicitar {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
 }
 
 

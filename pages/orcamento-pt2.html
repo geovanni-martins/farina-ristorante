@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/styles/style.css">
-    <link rel="stylesheet" href="../src/styles/orcamento.css">
+    <link rel="stylesheet" href="../src/styles/orcamento2.css">
     <link rel="stylesheet" href="../src/styles/footer.css">
     <link rel="stylesheet" href="../src/styles/nav.css">
     <title>Orçamento</title>
@@ -21,7 +21,7 @@
             <div id="div-form">
                 <div id="icones">
                     <div class="icon-dados">
-                        <img src="../src/assets/img/dados-pessoais.png" alt="Icone representando que você está na página de cadastro dos dados pessoais">
+                        <img src="../src/assets/img/dados-pessoais-ok.png" alt="Icone representando que você está na página de cadastro dos dados pessoais">
                         <p>DADOS PESSOAIS</p>
                     </div>
                     
@@ -29,21 +29,22 @@
                     <div id="traco"></div>
                     
                     <div class="icon-dados">
-                        <img src="../src/assets/img/dados-comemoracao.png" alt="Icone representando que a próxima página será a de cadastro das informações da comemoração">
+                        <img src="../src/assets/img/dados-comemoracao-2.png" alt="Icone representando que a próxima página será a de cadastro das informações da comemoração">
                         <p>DADOS DA COMEMORAÇÃO</p>
                     </div>
                 </div>
 
                 <div id="formulario">
                     <form>
-                        <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" placeholder="Digite aqui" required>
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" placeholder="Digite aqui" required>
-                        <label for="telefone">Telefone</label>
-                        <input type="tel" name="telefone" id="telefone" placeholder="Digite aqui" required>
+                        <label for="evento">Evento</label>
+                        <input type="text" name="evento" id="evento" placeholder="Detalhe aqui">
+                        <label for="data">Data do Evento</label>
+                        <input type="date" name="data" id="data">
+                        <label for="hora">Hora de Início</label>
+                        <input type="time" name="hora" id="hora">
 
-                        <a href="../pages/orcamento-pt2.html" id="btn">DADOS DA COMEMORAÇÃO</a>
+                        <a href="../pages/orcamento.html" id="btn-voltar" class="btn">DADOS PESSOAIS</a>
+                        <a href="#" id="btn-solicitar" class="btn">SOLICITAR</a>
                     </form>
                 </div>
             </div>

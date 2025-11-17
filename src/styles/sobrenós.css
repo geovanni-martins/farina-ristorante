@@ -40,7 +40,7 @@ h1 {
 }
 .caixa-texto-sobrenós .texto{
     font-weight: 600;
-    font-size:clamp(1.2rem,1.5rem,1.8rem);
+    font-size: clamp(0.9rem, 0.5rem + 1vw, 2rem);
     margin-bottom:40px;
     color:#005926 ;
 }

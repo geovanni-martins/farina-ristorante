@@ -68,6 +68,7 @@ h1 {
     padding:100px;
     padding-top: 1px;
     width: 547px;
+    padding-bottom: 0;
     
 }
 .botões-categorias a{
@@ -82,7 +83,9 @@ h1 {
 }
 .div-Antipasti {
     width: 1706px;
-    margin:0 auto;
+    margin:100px;
+    margin-bottom: 0;
+    margin-top: 0;
     padding:16px 16px 40px 16px;
     background-color: #F3F3F3;
 
@@ -92,4 +95,124 @@ h1 {
     padding-top: 1px;
     align-items: left;
     
+}
+.aba-Antipasti{
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 1700px;
+
+}
+.menu-grid{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+
+
+.Focaccia{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #005926 ;
+    
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    align-self: flex-start;
+}
+
+.conteudo h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+    padding-bottom: 15px;
+
+}
+
+.conteudo .descricao{
+    font-size: 20px;
+    padding-bottom: 15px;
+    line-height: 1.4;
+    color: #333;
+    margin: 0;
+}
+
+.conteudo .tag{
+    font-size: 14px;
+    margin: 4px 0;
+    padding-bottom: 30px;
+}
+
+.conteudo .preco{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.aba-Antipasti img{
+    border-radius: 10px;
+    width: 258px;
+    height: 238px;
+    object-fit: cover;
+    
+}
+.Arancini-Romano{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #005926 ;
+}
+
+.conteudo .preço{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding-top:70px
+
+} 
+.Burrata{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #005926;
+    width: 1130px;
+    
+
+}
+
+
+
+.Polpettini{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #005926 ;
+}
+
+.div-Pasta {
+    width: 1706px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding:16px 16px 40px 16px;
+    background-color: #F3F3F3;
+
+}
+
+.div-Pasta .texto {
+    padding-top: 1px;
+    align-items: left;
 }

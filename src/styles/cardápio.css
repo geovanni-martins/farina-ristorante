@@ -26,20 +26,70 @@ h1 {
     text-align: center;
     font-weight: normal;
 }
+
 .botões-cardápio{
     font-family: var(--titulos);
     margin:0 auto;
-    padding:50px;
+    padding:100px;
+    padding-bottom:40px;
 
 
 }
 .botões-cardápio h3{
     padding-bottom: 40px;
+    font-size: 28px;
+    color:#005926 ;
+    font-weight:500;
 
 }
 .botões-cardápio a{
-    margin-top: 10px;
-    border:1px solid black;
+    border:1px solid;
     padding:30px 50px 30px 20px;
-    align-items: left;;
+    align-items: left;
+    cursor: pointer;
+}
+.botões-cardápio .cardápio{
+    background-color:#C8102E;
+    border-radius: 10px;
+    color: var(--cor-principal);
+    font-weight: 500;
+    font-size: 24px;
+}
+.botões-cardápio .promoção {
+    color:var(--cor-principal);
+    font-size:24px ;
+    font-weight: 500;
+    border-radius: 10px;
+    background: linear-gradient( to right,#615E5E, #C1C0C0);
+}
+
+.botões-categorias{
+    display: flex;
+    padding:100px;
+    padding-top: 1px;
+    width: 547px;
+    
+}
+.botões-categorias a{
+    flex: 0 0 220px;
+    font-family: var(--titulos);
+    padding:30px 40px 20px 20px;
+    border: 1px solid;
+    cursor: pointer;
+    border-color:#8D8686 ;
+    font-size: 20px;
+    text-align: center
+}
+.div-Antipasti {
+    width: 1706px;
+    margin:0 auto;
+    padding:16px 16px 40px 16px;
+    background-color: #F3F3F3;
+
+}
+
+.div-Antipasti .texto {
+    padding-top: 1px;
+    align-items: left;
+    
 }

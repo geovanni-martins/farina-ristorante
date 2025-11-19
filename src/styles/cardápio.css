@@ -47,6 +47,7 @@ h1 {
     padding:30px 50px 30px 20px;
     align-items: left;
     cursor: pointer;
+
 }
 .botões-cardápio .cardápio{
     background-color:#C8102E;
@@ -54,6 +55,11 @@ h1 {
     color: var(--cor-principal);
     font-weight: 500;
     font-size: 24px;
+
+}
+.pasta{
+    color: black;
+    text-decoration: none;
 }
 .botões-cardápio .promoção {
     color:var(--cor-principal);
@@ -155,6 +161,7 @@ h1 {
     font-size: 16px;
     font-weight: 600;
     margin: 0;
+    
 }
 
 .aba-Antipasti img{
@@ -162,6 +169,7 @@ h1 {
     width: 258px;
     height: 238px;
     object-fit: cover;
+    
     
 }
 .Arancini-Romano{
@@ -177,7 +185,7 @@ h1 {
     font-size: 16px;
     font-weight: 600;
     margin: 0;
-    padding-top:70px
+
 
 } 
 .Burrata{
@@ -186,11 +194,11 @@ h1 {
     align-items: flex-start;
     gap: 40px;
     padding-bottom: 30px;
-    border-bottom: 1px solid #005926;
-    width: 1130px;
+    border-bottom: 1px solid #005926 ;
+}
     
 
-}
+
 
 
 
@@ -201,6 +209,7 @@ h1 {
     gap: 40px;
     padding-bottom: 30px;
     border-bottom: 1px solid #005926 ;
+    padding-top: 20px;
 }
 
 .div-Pasta {
@@ -213,6 +222,220 @@ h1 {
 }
 
 .div-Pasta .texto {
+    padding-top: 1px;
+    align-items: left;
+}
+.aba-Pasta{
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 1700px;
+}
+.menu-grid{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+
+
+.Lasagna{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #005926 ;
+    
+}
+
+.Tagliatelle{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #005926 ;
+}
+
+.conteudo .preço{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding-top:70px
+    
+} 
+.Pizza{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #005926 ;
+}
+    
+    
+
+
+
+
+.Ravioli{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #005926 ;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    align-self: flex-start;
+}
+
+.conteudo h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+    padding-bottom: 15px;
+
+}
+
+.conteudo .descricao{
+    font-size: 20px;
+    padding-bottom: 15px;
+    line-height: 1.4;
+    color: #333;
+    margin: 0;
+}
+
+.conteudo .tag{
+    font-size: 14px;
+    margin: 4px 0;
+    padding-bottom: 30px;
+}
+
+.conteudo .preco{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding-top:65px;
+}
+
+.aba-Pasta img{
+    border-radius: 10px;
+    width: 258px;
+    height: 238px;
+    object-fit: cover;
+    
+    
+}
+
+
+aba-Dolci{
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 1700px;
+}
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+
+
+.Tiramisù{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #005926 ;
+}
+    
+    
+
+
+.Pistachio{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #005926 ;
+}
+
+.conteudo .preço{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding-top:70px
+    
+} 
+
+
+
+
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    align-self: flex-start;
+}
+
+.conteudo h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+    padding-bottom: 15px;
+
+}
+
+.conteudo .descricao{
+    font-size: 20px;
+    padding-bottom: 15px;
+    line-height: 1.4;
+    color: #333;
+    margin: 0;
+}
+
+.conteudo .tag{
+    font-size: 14px;
+    margin: 4px 0;
+    padding-bottom: 30px;
+}
+
+.conteudo .preco{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.aba-Dolci img{
+    border-radius: 10px;
+    width: 258px;
+    height: 238px;
+    object-fit: cover;
+    
+    
+}
+.div-dodia {
+    width: 1706px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding:16px 16px 40px 16px;
+    background-color: #F3F3F3;
+
+}
+
+.div-dodia .texto {
     padding-top: 1px;
     align-items: left;
 }

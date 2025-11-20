@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="/src/styles/eventos.css">
+    <link rel="stylesheet" href="/src/styles/footer.css">
+    <link rel="stylesheet" href="/src/styles/nav.css">
+    <title>Eventos</title>
+</head>
+<body>
+    <div id="nav"></div>
+
+    <header>
+        <h1>EVENTOS</h1>
+    </header>
+
+    <main>
+        <section id="section-eventos">
+            <div id="div-limitadora-tamanho">
+
+                <article id="article-aniversario" class="eventos">
+
+                    <img src="/src/assets/img/aniversarios.png" alt="Aniversários">
+
+                    <h2>ANIVERSÁRIOS</h2>
+
+                    <a href="/pages/orcamento.html" class="btn-orcamento">ORÇAMENTO</a>
+                </article>
+
+                <article id="article-confraternizacao" class="eventos">
+                    
+                    <img src="/src/assets/img/confraternizacoes.png" alt="Confraternizações">
+
+                    <h2>CONFRATERNIZAÇÕES</h2>
+
+                    <a href="/orcamento.html" class="btn-orcamento">ORÇAMENTO</a>
+                </article>
+
+                <article id="article-casamento" class="eventos">
+
+                    <img src="/src/assets/img/casamentos.png" alt="Casamentos">
+
+                    <h2>CASAMENTOS</h2>
+
+                    <a href="/orcamento.html" class="btn-orcamento">ORÇAMENTO</a>
+                </article>
+
+                <article id="article-evento-corporativo" class="eventos">
+
+                    <img src="/src/assets/img/eventos-c.png" alt="Eventos Corporativos">
+
+                    <h2>EVENTOS CORPORATIVOS</h2>
+
+                    <a href="/orcamento.html" class="btn-orcamento">ORÇAMENTO</a>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="/src/scripts/carregarComponentes.js"></script>
+    <script>
+        carregarComponente("#nav", "/components/nav.html")
+        carregarComponente("#footer", "/components/footer.html")
+    </script>
+</body>
+</html>

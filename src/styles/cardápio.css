@@ -439,3 +439,158 @@ aba-Dolci{
     padding-top: 1px;
     align-items: left;
 }
+/*auxilio de IA*/
+@media (max-width: 1120px) {
+    header {
+        height: 50vh;
+        background-attachment: scroll;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: clamp(2rem, 12vw, 6rem);
+    }
+
+    .botões-cardápio {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .botões-cardápio a {
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .botões-categorias {
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .botões-categorias a {
+        flex: 1 1 45%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+   
+    .div-Antipasti,
+    .div-Pasta,
+    .div-dodia {
+        width: 100%;
+         max-width: 1200px;
+        margin: 40px 0;
+    }
+
+    .aba-Antipasti,
+    .aba-Pasta,
+    .aba-Dolci {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    
+    .menu-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+   
+    .Focaccia,
+    .Arancini-Romano,
+    .Burrata,
+    .Polpettini,
+    .Lasagna,
+    .Tagliatelle,
+    .Pizza,
+    .Ravioli,
+    .Tiramisù,
+    .Pistachio {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    .aba-Antipasti img,
+    .aba-Pasta img,
+    .aba-Dolci img {
+        width: 90%;
+        height: auto;
+        align-content: center;
+    }
+
+    .conteudo {
+        align-items: center;
+        text-align: center;
+    }
+
+    .conteudo h2 {
+        font-size: 26px;
+    }
+    
+
+    .conteudo .descricao {
+        font-size: 18px;
+    }
+
+    .conteudo .preco,
+    .conteudo .preço {
+        padding-top: 10px !important;
+    }
+}
+
+
+
+
+@media (max-width: 760px) {
+
+    header {
+        height: 40vh;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: clamp(1.8rem, 10vw, 4.5rem);
+    }
+
+    .botões-cardápio {
+        padding: 20px;
+    }
+
+    .botões-cardápio a {
+        max-width: 100%;
+        padding: 18px;
+        font-size: 20px;
+    }
+
+    .botões-categorias {
+        gap: 10px;
+    }
+
+    .botões-categorias a {
+        flex: 1 1 100%;
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .conteudo h2 {
+        font-size: 22px;
+    }
+
+    .conteudo .descricao {
+        font-size: 16px;
+    }
+
+    .aba-Antipasti img,
+    .aba-Pasta img,
+    .aba-Dolci img {
+        width: 100%;
+    }
+}

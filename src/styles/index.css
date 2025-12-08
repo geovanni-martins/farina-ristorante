@@ -108,7 +108,7 @@ h2 {
     }
 }
 
-@media (max-width: 1580px) {
+@media (max-width: 1500px) {
     h1 {
         font-size: 3em;
     }

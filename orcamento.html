@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/styles/style.css">
-    <link rel="stylesheet" href="../src/styles/orcamento.css">
-    <link rel="stylesheet" href="../src/styles/footer.css">
-    <link rel="stylesheet" href="../src/styles/nav.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/orcamento.css">
+    <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/nav.css">
     <title>Orçamento</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
             <div id="div-form">
                 <div id="icones">
                     <div class="icon-dados">
-                        <img src="../src/assets/img/dados-pessoais.png" alt="Icone representando que você está na página de cadastro dos dados pessoais">
+                        <img src="./src/assets/img/dados-pessoais.png" alt="Icone representando que você está na página de cadastro dos dados pessoais">
                         <p>DADOS PESSOAIS</p>
                     </div>
                     
@@ -29,7 +29,7 @@
                     <div id="traco"></div>
                     
                     <div class="icon-dados">
-                        <img src="../src/assets/img/dados-comemoracao.png" alt="Icone representando que a próxima página será a de cadastro das informações da comemoração">
+                        <img src="./src/assets/img/dados-comemoracao.png" alt="Icone representando que a próxima página será a de cadastro das informações da comemoração">
                         <p>DADOS DA COMEMORAÇÃO</p>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                         <label for="telefone">Telefone</label>
                         <input type="tel" name="telefone" id="telefone" placeholder="Digite aqui" required>
 
-                        <a href="../pages/orcamento-pt2.html" id="btn">DADOS DA COMEMORAÇÃO</a>
+                        <a href="./orcamento-pt2.html" id="btn">DADOS DA COMEMORAÇÃO</a>
                     </form>
                 </div>
             </div>
@@ -52,10 +52,10 @@
 
     <div id="footer"></div>
     
-    <script src="../src/scripts/carregarComponentes.js"></script>
+    <script src="./src/scripts/carregarComponentes.js"></script>
     <script>
-        carregarComponente("#nav", "../components/nav.html")
-        carregarComponente("#footer", "../components/footer.html")
+        carregarComponente("#nav", "./components/nav.html")
+        carregarComponente("#footer", "./components/footer.html")
     </script>
 </body>
 </html>

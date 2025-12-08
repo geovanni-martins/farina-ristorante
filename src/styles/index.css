@@ -17,7 +17,7 @@ header > p, header h1, header a {
 
 h1 {
     font-family: var(--titulos);
-    font-size: 5em;
+    font-size: clamp(4rem, 10vw, 15rem);;
     font-weight: normal;
 
     margin-top: 4%;
@@ -26,7 +26,7 @@ h1 {
 
 p#paragrafo-header {
     font-family: var(--texto);
-    font-size: 1.7em;
+    font-size: 1.5em;
 
     width: 54%;
 }
@@ -96,7 +96,7 @@ h2 {
     }
 
     #div-section-text a.btn-destaque {
-        width: 50%;
+        width: 73%;
         margin-top: 8%;
     }
 }

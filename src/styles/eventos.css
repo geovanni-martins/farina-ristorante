@@ -14,7 +14,7 @@ header {
 
 h1 {
     font-family: var(--titulos);
-    font-size: clamp(2rem, 10vw, 15rem);
+    font-size: clamp(4rem, 10vw, 15rem);;
     color: var(--cor-principal);
 
     margin-top: 4%;

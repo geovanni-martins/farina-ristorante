@@ -16,7 +16,7 @@ header {
 h1 {
     font-family: var(--titulos);
     color: var(--cor-principal);
-    font-size: clamp(2rem, 10vw, 15rem);
+    font-size: clamp(4rem, 10vw, 15rem);;
     line-height: 1.1;
     max-width: 90%; 
     margin: 0 auto;

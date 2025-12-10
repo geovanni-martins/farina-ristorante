@@ -202,7 +202,7 @@ h1 {
 
 
 
-
+/*AUXILIO DE IA*/
 @media (max-width: 1120px) {
     header {
         min-height: 50vh;
@@ -271,7 +271,7 @@ h1 {
         padding-top: 10px !important; 
     }
 }
-
+/*AUXILIO DE IA*/
 @media (max-width: 760px) {
 
     header {
